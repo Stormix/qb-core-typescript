@@ -1,0 +1,24 @@
+{
+  "name": "qb-core-typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "A boilerplate for TypeScript in FiveM",
+  "author": "Anas Mazouni",
+  "license": "MIT",
+  "scripts": {
+    "build": "node prod.build.js",
+    "watch": "node dev.build.js"
+  },
+  "dependencies": {
+    "@nativewrappers/client": "^1.7.26",
+    "qbcore.js": "^1.5.1"
+  },
+  "devDependencies": {
+    "@citizenfx/client": "^2.0.6014-1",
+    "@citizenfx/server": "^2.0.6014-1",
+    "@types/node": "^18.11.9",
+    "esbuild": "^0.15.13",
+    "esbuild-node-externals": "^1.5.0",
+    "ts-loader": "^9.4.1"
+  }
+}
